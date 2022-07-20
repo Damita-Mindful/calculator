@@ -1,0 +1,21 @@
+.boton-clear {
+  height: 40px;
+  font-size: 1.6em;
+  display: flex;
+  flex: 1;
+  background-color: pink;
+  margin-top: 8px;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  color: rgb(196, 32, 246);
+  cursor: pointer;
+  border-radius: 45px;
+  user-select: none;
+  box-shadow: 2px 3px 3px#888;
+}
+
+.boton-clear:hover {
+  background-color: rgb(100, 3, 92);
+  color: pink;
+}

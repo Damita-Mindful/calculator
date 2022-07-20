@@ -1,0 +1,45 @@
+.App{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: url("img/Orangee.png");
+    background-position: center center; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    padding-bottom: 8%;
+}
+
+.logo{
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: space-between;
+    width: 350px;
+    height: 150px;
+    font-size: 150%;
+    margin-left: 8%;
+    border: none;
+    border-width: thin; 
+    overflow: hidden;
+    text-align: center;
+    color: white;
+}
+
+
+
+.contenedor-calculadora {
+    margin-top: 2%;
+    width: 280px;
+    height: 380px;
+    padding: 14px;
+    background-image: url("img/lavanda\ \(2\).jpg");
+    border-radius: 20px;
+    margin-left: 10%;
+}
+
+.fila {
+    margin: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
